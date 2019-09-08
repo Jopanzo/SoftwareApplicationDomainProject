@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<img src="EasyAccountingImage(Proto).png" alt=" Oops image not found!">
+  <form class="loginCredentials" action="index.html" method="post">
+    <input type="text" name="" value="">
+    <input type="password" name="userPassword" value="">
+    <select class="" name="userType">
+      <option value="admin">Administrator</option>
+      <option value="manager">Manager</option>
+      <option value="accountant">Accountant</option>
+    </select>
+    <input type="submit" name="" value="Login">
+    <br><input type="submit" name="" value="Forgot Password?">
+    &emsp;&nbsp;&nbsp;<input type="submit" name="" value="New User">
+  </form>
+{% endblock %}
+
+{% block content_cool %}
+<p>Second content</p>
+{% endblock %}
